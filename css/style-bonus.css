@@ -1,0 +1,21 @@
+.row{
+    height: 100%;
+}
+
+[class*="col-"] {
+    height: 50px;
+    border: 1px solid orange;
+    background-color: black;
+}
+
+[class*="col-"] > .row > [class*="col-"] {
+    background-color: yellow;
+}
+
+[class*="col-"] > .row > [class*="col-"] > .row > [class*="col-"] {
+    background-color: black;
+    height: 100%;
+}
+
+
+
