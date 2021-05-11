@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid black;
+}
+
+.row{
+    background-color: rgb(255, 192, 203);
+    height: 100%;
+}
+
+[class*="col-"] {
+    border: 2px solid black;
+    height: 200px;
+    line-height: 195px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+[class*="col-xs-6"] > .row > [class*="col-"]{
+    background-color: rgb(240, 127, 128);
+    border: 1px solid white;
+    height: 100%;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
